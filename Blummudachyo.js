@@ -224,7 +224,7 @@ try {
 
   const settingsButton = document.createElement('button');
   settingsButton.className = 'settings-button';
-  settingsButton.textContent = '۞';
+  settingsButton.textContent = 'X';
   settingsButton.onclick = () => {
     settingsMenu.style.display = settingsMenu.style.display === 'block' ? 'none' : 'block';
   };
