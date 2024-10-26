@@ -5,7 +5,7 @@ let GAME_SETTINGS = {
         flower: Math.floor(Math.random() * (90 - 80 + 1)) + 55,
         dogs: Math.floor(Math.random() * (90 - 80 + 1)) + 90,
     },
-    autoClickPlay: false,
+    autoClickPlay: true,
 };
 
 let isGamePaused = true;
