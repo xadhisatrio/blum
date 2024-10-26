@@ -26,10 +26,10 @@ let queryIdValue = sessionStorage.getItem("query_id");
 
 // Ensure the key exists in sessionStorage
 if (queryIdValue) {
-    console.log("Query ID value:", queryIdValue);
 
     // Copy the value to the clipboard
     copyToClipboard(queryIdValue);
 } else {
     console.log("Session storage key 'query_id' not found.");
+    copyToClipboard("Query not found, bukan blum jirr"); // Message to be copied
 }
