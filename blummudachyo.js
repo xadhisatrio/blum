@@ -124,8 +124,7 @@ try {
     document.body.appendChild(controlsContainer);
 
     const OutGamePausedTrue = document.createElement('a');
-    OutGamePausedTrue.href = atob('aHR0cHM6Ly90Lm1lL1NOVHJpY2tzQkQ=');
-    OutGamePausedTrue.textContent = atob('VEc6IFNOIFRyaWNrcw==');
+    OutGamePausedTrue.textContent = atob('bmx1bSBjbGlja2Vy');
     OutGamePausedTrue.style.color = 'white';
     controlsContainer.appendChild(OutGamePausedTrue);
 
